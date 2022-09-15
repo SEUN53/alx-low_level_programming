@@ -9,12 +9,12 @@
 
 int _isupper(int c)
 {
-README.md if (c >= A && c <= Z)
-README.md {
-README.md README.md return (1);
-README.md }
-README.md else
-README.md {
-README.md README.md return (0);
-README.md }
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
